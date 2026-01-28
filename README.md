@@ -72,10 +72,10 @@ If your PDF file is in your `assets` folder, pass `fromAssets: true` to the cons
 Example:
 
 ```dart
-        body: PdfBookViewer(
-          pdfUrl: 'assets/document.pdf',
-          fromAssets: true,
-        ),
+PdfBookViewer(
+  pdfUrl: 'assets/document.pdf',
+  fromAssets: true,
+),
 ```
 
 ### Custom Styling
